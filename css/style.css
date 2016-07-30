@@ -1,14 +1,100 @@
 /* CSS Document */
-*{
-	margin:0px;
-	padding:0px;	
+* {
+	margin: 0px;
+	padding: 0px;
 }
-body{
-	background:url(../img/bj.gif);	
+body {
+	background: url(../img/bj.gif);
 }
-#mainbox{
-	border:solid #DF8082 1px;
-	width:960px;
-	height:1000px;
-	margin:0 auto;
+a {
+	text-decoration: none;
+	color: #444;
+}
+#mainbox {
+	border: solid #DF8082 1px;
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto;
+}
+#logo {
+	height: 95px;
+	position: relative;
+}
+.logo-image {
+	position: absolute;
+	bottom: 10px;
+}
+#logo .logo-image img {
+	width: 120px;
+	height: 60px;
+	float: left;
+}
+#logo .logo-name {
+	position: absolute;
+	bottom: -20px;
+	left: 131px;
+	font-size: 20px;
+	float: left;
+	width: 300px;
+	font-weight: bold;
+	height: 60px;
+	color: #c30;
+}
+#logo .phone {
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+#mainmenu {
+	position: relative;
+}
+#nav {
+	background: url(../img/navbj.jpg) repeat-x;
+	line-height: 44px;
+}
+#nav ul {
+	list-style: none;
+	text-align: center;
+}
+#nav ul li {
+	display: inline-block;
+	background: url(../img/navimg.jpg) no-repeat center right;
+	width: 80px;
+	font-size: 16px;
+	height: 44px;
+	font-weight: bold;
+	line-height: 44px;
+	text-align: center;
+}
+#nav-sub {
+	position: absolute;
+	top: 44px;
+	left: 224px;
+	width: 74px;
+	display: none;
+	border: rgb(225,214,182) 1px solid;
+	font-size: 10px;
+	padding-left: 10px;
+	background: rgb(250,245,205);
+}
+#nav-sub ul {
+	list-style: none;
+}
+#nav-sub ul li {
+	line-height: 30px;
+}
+#bannerbox {
+	text-align: center;
+}
+.spanbtn {
+	position: relative;
+	bottom: 35px;
+}
+.spanbtn span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border: #fff 1px solid;
+	text-align: center;
+	line-height: 18px;
 }

@@ -4,25 +4,59 @@
 <meta charset="UTF-8">
 <title>首页</title>
 <link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
 </head>
-<div id="mainbox">
-	<!--上面容器-->
-	<div id="topbox">
-    	<!--logo-->
-    	<div></div>
-        <!--menu-->
-    	<div></div>
-    </div>
-    
-    
-    <div id="middlebox">
-        <div id="midtop"></div>
-        <div id="midbottom"></div>
-    </div>
-    
-    
-    <div class="bottombox"></div>
-</div>
 <body>
+<div id="mainbox"> 
+  <!--上面容器-->
+  <div id="topbox"> 
+    <!--logo-->
+    <div id="logo">
+      <div class="logo-image"><img src="img/logo.png" alt="logo"></div>
+      <div class="logo-name"><span>飞上天智能家居公司</span></div>
+      <div class="phone"><img src="img/top.jpg" alt=""></div>
+    </div>
+    <!--menu-->
+    <div>
+      <div id="mainmenu">
+        <div id="nav">
+          <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li onMouseOver="showSubNav('nav-sub')" onMouseOut="hideSubNav('nav-sub')"><a href="#" >新闻资讯</a></li>
+            <li><a href="#">产品介绍</a></li>
+            <li><a href="#">解决方案</a></li>
+            <li><a href="#">体验中心</a></li>
+            <li><a href="#">成功案例</a></li>
+            <li><a href="#">加盟合作</a></li>
+            <li><a href="#">资料下载</a></li>
+            <li><a href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div id="nav-sub" onMouseOver="showSubNav('nav-sub')" onMouseOut="hideSubNav('nav-sub')">
+          <ul>
+            <li><a href="#">公司新闻</a></li>
+            <li><a href="#">行业新闻</a></li>
+            <li><a href="#">国内新闻</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="bannerbox">
+    <div> <img src="img/banner1.jpg" alt="" width="100%" id="banner-img"> </div>
+    <div class="spanbtn">
+    	<span>1</span>
+    	<span>2</span>
+    	<span>3</span>
+    	<span>4</span>
+    </div>
+  </div>
+  <div id="middlebox">
+    <div id="midtop"></div>
+    <div id="midbottom"></div>
+  </div>
+  <div class="bottombox"></div>
+</div>
 </body>
 </html>
