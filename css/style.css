@@ -1,0 +1,14 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;	
+}
+body{
+	background:url(../img/bj.gif);	
+}
+#mainbox{
+	border:solid #DF8082 1px;
+	width:960px;
+	height:1000px;
+	margin:0 auto;
+}
