@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>首页</title>
 <link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+
 </head>
 <body>
 <div id="mainbox"> 
@@ -45,18 +45,89 @@
   </div>
   <div id="bannerbox">
     <div> <img src="img/banner1.jpg" alt="" width="100%" id="banner-img"> </div>
-    <div class="spanbtn">
-    	<span>1</span>
-    	<span>2</span>
-    	<span>3</span>
-    	<span>4</span>
-    </div>
+    <div class="spanbtn"> <span onClick="showBannerById(0)">1</span> <span onClick="showBannerById(1)">2</span> <span onClick="showBannerById(2)">3</span> <span onClick="showBannerById(3)">4</span> </div>
   </div>
   <div id="middlebox">
-    <div id="midtop"></div>
-    <div id="midbottom"></div>
+    <div id="midtop">
+      <div class="topleft">
+        <div class="toptitle">
+          <div> <span>新闻动态 News</span> </div>
+        </div>
+        <div class="topimage"> <img src="img/newsimg.jpg" alt=""> </div>
+        <div class="toplist">
+          <ul>
+            <li><a href="#">西城市为主的生活与居住区</a></li>
+            <li><a href="#">西城市为主的生活与居住区</a></li>
+            <li><a href="#">西城市为主的生活与居住区</a></li>
+            <li><a href="#">西城市为主的生活与居住区</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="topcenter topleft">
+        <div class="toptitle">
+          <div> <span>公司动态 Company</span> </div>
+        </div>
+        <div class="top-center-image"> <img src="img/companyimg.jpg" alt=""> </div>
+        <div>
+          <p>新智达有限公司位于成都市高新区--成都市软件产业园。新智达科技有限公司是以智能家居产品研发和销售为主的高科技企业。新智达的所有产品均通过国家权威部门的检测，高于国家对电工电子产品质量和安全的认证要求。......</p>
+        </div>
+      </div>
+      <div class="topleft topright">
+        <div class="toptitle">
+          <div> <span>联系我们 Contact us</span> </div>
+        </div>
+        <div class="top-right-image"> <img src="img/Contactimg.jpg" alt=""> </div>
+        <div class="contactlist">
+          <ul>
+            <li><a href="#">公司名称：某某智能家居技术开发有限公司</a></li>
+            <li><a href="#">公司地址：天府软园</a></li>
+            <li><a href="#">公司电话：400-12345678</a></li>
+            <li><a href="#">公司传真：400-12345678</a></li>
+            <li><a href="#">业务负责人：黄先生</a></li>
+            <li><a href="#">公司网址：www.maizi.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="midbottom">
+      <div class="topleft">
+        <div class="toptitle">
+          <div> <span>视频中心 Vedio</span> </div>
+        </div>
+        <div class="vedio">
+          <embed src="http://player.youku.com/player.php/sid/XMTYzOTg0MTg1Ng==/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+        </div>
+      </div>
+      <div class="topleft" id="products-show">
+        <div class="toptitle">
+          <div> <span>产品展示 Product display </span> </div>
+        </div>
+       
+        
+        <div id="demo">
+        <div id="indemo">
+        	<div id="demo1">
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        		<a href="#"><img src="img/chanpin.jpg" alt=""></a>
+        	</div>
+            <div id="demo2">
+            </div>
+        </div>
+       
+        
+          
+        </div>
+         
+      </div>
+    </div>
   </div>
   <div class="bottombox"></div>
 </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>

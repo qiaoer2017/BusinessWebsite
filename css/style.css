@@ -11,8 +11,7 @@ a {
 	color: #444;
 }
 #mainbox {
-	border: solid #DF8082 1px;
-	width: 960px;
+	width: 1000px;
 	height: 1000px;
 	margin: 0 auto;
 }
@@ -66,6 +65,9 @@ a {
 	line-height: 44px;
 	text-align: center;
 }
+#nav ul li:last-child {
+	background: none;
+}
 #nav-sub {
 	position: absolute;
 	top: 44px;
@@ -97,4 +99,130 @@ a {
 	border: #fff 1px solid;
 	text-align: center;
 	line-height: 18px;
+	color: #fff;
+}
+.spanbtn span:hover {
+	cursor: pointer;
+	background: #000;
+}
+#middlebox {
+	margin-top: -22px;
+}
+#midtop, #midbottom {
+	background: url(../img/content_bg.jpg);
+	width: 100%;
+	height: 359px;
+}
+.topleft {
+	background: url(../img/content_sm_bg.jpg);
+	height: 336px;
+	width: 326px;
+	border: 1px solid #d7d7d7;
+	margin-left: 3px;
+	float: left;
+}
+.topleft .toptitle span {
+	line-height: 58px;
+	color: rgb(152,61,0);
+	background: url(../img/contentimg.jpg) no-repeat left center;
+	padding: 10px 0 10px 25px;
+	margin-left: 14px;
+}
+.topleft .topimage img {
+	width: 200px;
+	height: 119px;
+}
+.topimage {
+	text-align: center;
+	margin: 10px 0px;
+}
+.toplist ul {
+	list-style: none;
+}
+.topleft .toplist ul li {
+	border-bottom: 1px dashed rgb(153,152,151);
+	background: url(../img/ico.jpg) no-repeat center left;
+	padding-left: 22px;
+	line-height: 28px;
+	font-size: 13px;
+	margin: 3px 26px;
+}
+.toplist ul li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#midtop .topcenter {
+	float: left;
+	width: 330px;
+}
+#midtop .topcenter p {
+	font-size: 13px;
+	line-height: 28px;
+	margin: 3px 20px;
+}
+#midtop .topright {
+	float: right;
+	margin-right: 3px;
+}
+.contactlist ul {
+	list-style: none;
+}
+.topright .top-right-image img {
+	width: 265px;
+	height: 76px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.contactlist ul {
+	margin-top: 10px;
+}
+.contactlist ul li {
+	padding-left: 22px;
+	line-height: 28px;
+	font-size: 13px;
+	margin: 1px 12px;
+}
+.top-right-image, contactlist {
+	text-align: center;
+}
+.top-right-image {
+	margin-top: 15px;
+}
+.vedio{
+	width:326px;	
+}
+
+embed{
+   width: 327px;
+    height: 224px;
+	margin-top:19px;	
+}
+#midbottom .topleft{
+	    width: 327px;
+    height: 327px;
+}
+
+div#products-show {
+    width: 660px !important;
+}
+
+#demo{
+	background:#fff;
+	margin:10px auto;
+	overflow:hidden;
+	    margin-top: 61px;
+}
+#indemo{
+	float:left;
+	width:800%;	
+}
+#demo1,#demo2{
+	float:left;	
+}
+#indemo #demo1 img{
+	width:148px;
+	height:156px;	
+	
+}
+#indemo #demo1 a{
+		margin:0px 10px;
 }
