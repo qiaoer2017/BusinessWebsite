@@ -1,0 +1,115 @@
+/* CSS Document */
+#leftbox{
+	width:250px;
+	background:white;
+	vertical-align:top;
+	display:inline-block;
+}
+
+#rightbox{
+	width: 710px;
+background: white;
+display:inline-block;
+  vertical-align:top;
+padding: 10px 10px 0px 20px;
+margin-bottom:20px;
+}
+#leftbox{
+	background:	rgb(219,221,230);	
+}
+#box1 h1,#box2 h1, #box3 h1{
+	background:rgb(54,54,6);
+	color:white;
+	font-size:15px;
+	padding:10px 20px;	
+	
+}
+
+#box1 ul,#box3 ul{
+	list-style:none;
+	margin-top:20px;
+	
+}
+#box1 ul li,#box3 ul li{
+	padding:10px 10px;
+	font-size:12px;
+	border-top:1px solid white;	
+}
+#box1 ul li:hover,#box1 ul li:hover a,#box3 ul li:hover,#box3 ul li:hover a{
+	background:	rgb(54,54,6);
+	color:white;
+	cursor:pointer;
+}
+#box1 ul a,#box3 ul a{
+	color:black;
+}
+
+#box2{
+	margin-top:10px;
+	background:white;	
+}
+#box2 ul li{
+	padding:5px 10px;
+}
+
+#box2 ul li:before{
+	content:"."	;
+	margin-right:10px;
+	vertical-align:central;
+}
+#box2 ul li a{
+	color:#444;
+	font-size:12px;	
+}
+#box2 ul{
+	list-style:none;
+}
+
+#box2 ul li a:hover{
+	text-decoration:underline;	
+}
+#box3 ul{
+	margin-top:0px;
+}
+
+#topimage{
+	border-bottom:1px dashed #444;	
+}
+
+#topcontent h2{
+	background:url(../img/lv-left.gif) no-repeat center left;
+	font-size:14px;
+	padding-left:20px;
+	line-height:30px;
+	margin-top:10px;
+}
+
+#topcontent ul{
+	list-style:none;	
+	border:1px solid rgb(200,200,200);
+	border-top:none;
+	padding:15px;
+}
+#topcontent ul li{
+	display:inline-block;
+	
+}
+#topcontent ul li img{
+	border:1px solid rgb(200,200,200);
+	margin-right: 18px;
+	width:146px;
+}
+#topcontent ul li p{
+	font-size:13px;
+	margin:10px 0px;
+}
+
+#topcontent ul li p:hover{
+	text-decoration:underline;	
+}
+
+p#prenext{
+	color:#444;
+	margin-top:20px;
+	font-size:13px;	
+}

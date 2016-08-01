@@ -12,7 +12,7 @@ a {
 }
 #mainbox {
 	width: 1000px;
-	height: 1000px;
+	
 	margin: 0 auto;
 }
 #logo {
@@ -43,6 +43,22 @@ a {
 	position: absolute;
 	bottom: 15px;
 	right: 10px;
+}
+.setindex{
+	position:absolute;
+	right:0px;
+	margin-top:10px;
+	margin-right:10px;
+	
+}
+
+.setindex li{
+	list-style:none;	
+	display:inline-block;
+	color:#5E480A;	
+}
+.setindex li a{
+	color:#5E480A;	
 }
 #mainmenu {
 	position: relative;
@@ -107,6 +123,8 @@ a {
 }
 #middlebox {
 	margin-top: -22px;
+	margin-bottom:20px;
+	background:#fff;
 }
 #midtop, #midbottom {
 	background: url(../img/content_bg.jpg);
@@ -187,42 +205,48 @@ a {
 .top-right-image {
 	margin-top: 15px;
 }
-.vedio{
-	width:326px;	
+.vedio {
+	width: 326px;
 }
-
-embed{
-   width: 327px;
-    height: 224px;
-	margin-top:19px;	
+embed {
+	width: 327px;
+	height: 224px;
+	margin-top: 19px;
 }
-#midbottom .topleft{
-	    width: 327px;
-    height: 327px;
+#midbottom .topleft {
+	width: 327px;
+	height: 327px;
 }
-
 div#products-show {
-    width: 660px !important;
+	width: 660px !important;
 }
-
-#demo{
-	background:#fff;
-	margin:10px auto;
-	overflow:hidden;
-	    margin-top: 61px;
+#demo {
+	background: #fff;
+	margin: 10px auto;
+	overflow: hidden;
+	margin-top: 61px;
 }
-#indemo{
-	float:left;
-	width:800%;	
+#indemo {
+	float: left;
+	width: 800%;
 }
-#demo1,#demo2{
-	float:left;	
+#demo1, #demo2 {
+	float: left;
 }
-#indemo #demo1 img{
-	width:148px;
-	height:156px;	
+#indemo #demo1 img {
+	width: 148px;
+	height: 156px;
+}
+#indemo #demo1 a {
+	margin: 0px 10px;
+}
+.bottombox{
+	clear:both;	
+	margin:20px 0px;	
+}
+#bbox{
+	text-align:center;
+	font-size:12px;
 	
-}
-#indemo #demo1 a{
-		margin:0px 10px;
+	line-height:20px;
 }
